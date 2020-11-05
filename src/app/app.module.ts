@@ -10,4 +10,5 @@ import { AppComponent } from './app.component';
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
+// @ts-ignore
 export class AppModule { }
