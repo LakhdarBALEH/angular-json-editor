@@ -3,13 +3,17 @@ import { JsonEditorComponent, JsonEditorOptions } from 'ang-jsoneditor';
 
 import { schema } from './schema.value';
 
+// @ts-ignore
+// @ts-ignore
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+// @ts-ignore
 export class AppComponent {
 
+  // @ts-ignore
   @ViewChild(JsonEditorComponent) editor: JsonEditorComponent;
 
   options = new JsonEditorOptions();
