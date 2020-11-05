@@ -4,6 +4,7 @@ import { NgJsonEditorModule } from 'ang-jsoneditor';
 
 import { AppComponent } from './app.component';
 
+// @ts-ignore
 @NgModule({
   imports:      [ BrowserModule, NgJsonEditorModule ],
   declarations: [ AppComponent ],
